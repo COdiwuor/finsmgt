@@ -1,5 +1,5 @@
 <?php
-include('../finsmart/Includes/db.inc.php');
+include('Includes/db.inc.php');
 if(isset($_GET['Fname']) && isset($_GET['Lname']) && isset($_GET['Email']) && isset($_GET['Type'])&& isset($_GET['id'])){
 $Fname=$_GET['Fname'];
 $Lname=$_GET['Lname'];
